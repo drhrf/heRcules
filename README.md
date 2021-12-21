@@ -1,4 +1,4 @@
-# heRcules: um repositório para scripts R anotados em Português
+# heRcules: um repositório de scripts R anotados em Português
 
 Repositório de scripts R para a análise de dados na área de Ciências Biológicas e da Saúde. Meu objetivo aqui é:
 
