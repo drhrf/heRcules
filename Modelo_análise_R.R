@@ -95,7 +95,7 @@ plot.power.htest(tt)
 
 ##IMPORTANTE: substituir o caminho do arquivo para a planilha desejada
 
-df <- readxl::read_excel('/Users/herculesrezendefreitas/Downloads/R projects/Results_model.xlsx')
+df <- readxl::read_excel('caminho para o arquivo em seu computador')
 
 #Visualizar uma parte dos dados no console (janela abaixo)
 
