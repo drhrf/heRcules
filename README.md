@@ -1,10 +1,9 @@
-# R_for_biosci_data
-Repository of user-friendly R scripts for bioscience data analysis. My goal here is to:
+# heRcules: um repositório para scripts R anotados em Português
 
-1. Provide annotated R scripts to allow for a more user-friendly experience to those transitioning from no-code data analysis softwares.
+Repositório de scripts R para a análise de dados na área de Ciências Biológicas e da Saúde. Meu objetivo aqui é:
 
-2. Develop general step-by-step protocols for the analysis of scientific data.
+1. Fornece scripts R anotados para permitir uma experiência mais amigável para aqueles que estão fazendo a transição de softwares pagos e sem código.
 
-3. Generate structured R markdown files to facilitate reporting of data analysis.
+2. Desenvolver protocolos gerais passo a passo para a análise de dados científicos.
 
-IMPORTANT: some files may contain text in Portuguese (Brazil), I'm currently in the process of translating everything.
+3. Fornecer arquivos de markdown estruturados para facilitar o relatório da análise de dados.
