@@ -2,6 +2,8 @@
   <img align="center" alt="fig1" height="120" width="120" src="https://avatars.githubusercontent.com/u/91353422?v=4">
 </div>
 
+##
+
 
 ## heRcules: um repositório de scripts R anotados em Português
 
@@ -24,6 +26,8 @@
     - [Ciência de Dados em R](https://livro.curso-r.com/1-1-instalacao-do-r.html), de Athos Damiani, Beatriz Milz, Caio Lente, Daniel Falbel, Fernando Correa, Julio Trecenti, Nicole Luduvice e William Amorim (@Curso-R)
 
 ### Componentes do modelo I:
+
+##
 
 **ATENÇÃO!** Se for utilizar o modelo em uma publicação, cite:
 
