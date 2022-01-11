@@ -1,5 +1,5 @@
 <div style="display: inline_block"><br>
-  <img align="center" alt="fig1" height="120" width="110" src="https://avatars.githubusercontent.com/u/91353422?v=4">
+  <img align="center" alt="fig1" height="120" width="120" src="https://avatars.githubusercontent.com/u/91353422?v=4">
 </div>
 
 ## heRcules: um repositório de scripts R anotados em Português
