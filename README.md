@@ -15,7 +15,7 @@ Repositório de scripts R para a análise de dados na área de Ciências Biológ
 
 ### Aprendendo o básico da linguagem R:
 
-1. Ao usuário completamente inexperiente no uso da linguagem R que já possui R instalado, recomenda-se a leitura do guia:
+1. Ao usuário completamente inexperiente no uso da linguagem R, recomenda-se a leitura do guia:
 
 - [“Introdução ao R"](https://vanderleidebastiani.github.io/tutoriais/Introducao_ao_R.html), de Vanderlei Júlio Debastiani (@vanderleidebastiani)
 
