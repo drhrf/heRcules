@@ -35,8 +35,10 @@ Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for s
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-
 **1. Importando dados de planilhas**
+
+<details><summary>Expandir</summary>
+<p>
 
 - O caso mais habitual para pesquisas em Biociências é a importação de dados contidos em planilhas, normalmente salvas no formato '.xlsx'. Para esse tipo de documento, basta que o pesquisador execute o seguinte código:
 
@@ -60,7 +62,13 @@ install.packages("nomedopacote") #Aguardar a instalação e, então, executar:
 library(nomedopacote)
 ```
 
+</p>
+</details>
+
 **2. Estimativas de poder estatístico e tamanho amostral**
+
+<details><summary>Expandir</summary>
+<p>
 
 - Um dos elementos mais importantes do planejamento de experimentos é a estimativa de tamanho amostral. Uma leitura mais detalhada sobre o assunto pode ser encontrada no texto ["Poder do teste e tamanho do efeito"](https://biostatistics-uem.github.io/Bio/aula9/effectsize.html), de Felipe Barletta e Isolde Previdelli (@Biostatistics-UEM).
 
@@ -114,5 +122,8 @@ d estimate: 5.969867 (large)
    lower    upper 
 4.155318 7.784415 
 ```
+
+</p>
+</details>  
 
 [EM CONSTRUÇÃO]
