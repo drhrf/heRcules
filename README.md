@@ -43,13 +43,41 @@ Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for s
 df <- readxl::read_excel("caminho/do/arquivo/no/computador/nomedoarquivo.xlsx")
 ```
 
-- No caso acima, o comando importará para o ambiente R a primeira aba da planilha e atribuirá ao objeto “df” as informações contidas nela. O uso de "df", porém, é apenas uma convenção. Os dados poderiam ser importados da mesma maneira para um objeto chamado "obj", por exemplo. Uma visão parcial do objeto criado pode ser obtida através do comando "df" (ou "obj"), mas é possível interagir de forma mais completa (típico de planilhas) através do comando "view(df)" (sem as aspas).
+- No caso acima, o comando importará para o ambiente R a primeira aba da planilha e atribuirá ao objeto “df” as informações contidas nela. O uso de "df", porém, é apenas uma convenção. Os dados poderiam ser importados da mesma maneira para um objeto chamado "obj", por exemplo. Uma visão parcial do objeto criado pode ser obtida através do comando "df" (ou "obj"), mas é possível interagir de forma mais completa (típico de planilhas) através do comando "View(df)" (sem as aspas).
+
+```R
+View(df)
+```
+
+<img align="center" width="430" alt="fig2" src="https://user-images.githubusercontent.com/91353422/149055241-8d88e999-11d5-47e8-83f2-84c47ef69488.png">
 
 **2. Cálculo de poder estatístico e tamanho amostral**
 
 - Um dos elementos mais importantes do planejamento de experimentos é a estimativa de tamanho amostral. Uma leitura mais detalhada sobre o assunto pode ser encontrada no texto ["Poder do teste e tamanho do efeito"](https://biostatistics-uem.github.io/Bio/aula9/effectsize.html), de Felipe Barletta e Isolde Previdelli (@Biostatistics-UEM).
 
+- Utilizando o [pacote "pwr"](https://github.com/heliosdrm/pwr), as estimativas de *tamanho amostral* e *poder estatístico* para a análise de variância (ANOVA) podem ser realizadas utilizando o mesmo código, sendo apenas necessário substituir o valor desejado por “NULL". Veja o exemplo abaixo para a estimativa de tamanho amostral:
 
+```R
+av <- pwr.anova.test(k = 4,             #Número de grupos 
+                     n = NULL,          #Número de observações (tamanho amostral) 
+                     f = 0.5,           #Tamanho de efeito f 
+                     sig.level = 0.05,  #alfa (prob. de falso positivo) 
+                     power = .95)       #1 - beta (1 - prob. de falso negativo)
+
+av
+```
+
+```
+Balanced one-way analysis of variance power calculation 
+
+              k = 4
+              n = 18.18244
+              f = 0.5
+      sig.level = 0.05
+          power = 0.95
+
+NOTE: n is number in each group
+```
 
 
 
