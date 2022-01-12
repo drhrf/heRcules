@@ -2,7 +2,7 @@
   <img align="center" alt="fig1" height="120" width="120" src="https://avatars.githubusercontent.com/u/91353422?v=4">
 </div>
 
-
+------------------------------------------------------------------------------------------------------------------------------
 ## heRcules: um repositório de scripts R anotados em Português
 
 1. Repositório de scripts R para a análise de dados em Ciências Biológicas e da Saúde. Meu objetivo aqui é:
@@ -40,8 +40,16 @@ Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for s
 - O caso mais habitual para pesquisas em Biociências é a importação de dados contidos em planilhas, normalmente salvas no formato '.xlsx'. Para esse tipo de documento, basta que o pesquisador execute o seguinte código:
 
 ```R
-df <- readxl::read_excel(‘caminho/do/arquivo/no/computador/nomedoarquivo.xlsx’)
+df <- readxl::read_excel("caminho/do/arquivo/no/computador/nomedoarquivo.xlsx")
 ```
 
 - No caso acima, o comando importará para o ambiente R a primeira aba da planilha e atribuirá ao objeto “df” as informações contidas nela. O uso de "df", porém, é apenas uma convenção. Os dados poderiam ser importados da mesma maneira para um objeto chamado "obj", por exemplo. Uma visão parcial do objeto criado pode ser obtida através do comando "df" (ou "obj"), mas é possível interagir de forma mais completa (típico de planilhas) através do comando "view(df)" (sem as aspas).
+
+2. Cálculo de poder estatístico e tamanho amostral
+
+- Um dos elementos mais importantes do planejamento de experimentos em projetos de pesquisa é a estimativa de tamanho amostral. 
+
+
+
+
 
