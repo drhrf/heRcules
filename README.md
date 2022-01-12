@@ -47,7 +47,7 @@ df <- readxl::read_excel("caminho/do/arquivo/no/computador/nomedoarquivo.xlsx")
 
 2. Cálculo de poder estatístico e tamanho amostral
 
-- Um dos elementos mais importantes do planejamento de experimentos em projetos de pesquisa é a estimativa de tamanho amostral. 
+- Um dos elementos mais importantes do planejamento de experimentos é a estimativa de tamanho amostral. Uma leitura mais detalhada sobre o assunto pode ser encontrada no texto ["Poder do teste e tamanho do efeito"](https://biostatistics-uem.github.io/Bio/aula9/effectsize.html), de Felipe Barletta e Isolde Previdelli (@Biostatistics-UEM).
 
 
 
