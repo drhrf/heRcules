@@ -14,7 +14,7 @@
 
 - Fornecer arquivos de markdown estruturados para facilitar o relatório da análise de dados;
 
-### Aprendendo o básico da linguagem R
+### **Aprendendo o básico da linguagem R**
 
 **1. Ao usuário completamente inexperiente no uso da linguagem R, recomenda-se a leitura do guia:**
 
@@ -24,7 +24,7 @@
 
 - [Ciência de Dados em R](https://livro.curso-r.com/1-1-instalacao-do-r.html), de Athos Damiani, Beatriz Milz, Caio Lente, Daniel Falbel, Fernando Correa, Julio Trecenti, Nicole Luduvice e William Amorim (@Curso-R)
 
-### Componentes do modelo I
+### **Componentes do modelo I**
 
 
 
