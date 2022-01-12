@@ -51,7 +51,15 @@ View(df)
 
 <img align="center" width="430" alt="fig2" src="https://user-images.githubusercontent.com/91353422/149055241-8d88e999-11d5-47e8-83f2-84c47ef69488.png">
 
-**2. Cálculo de poder estatístico e tamanho amostral**
+- É importante destacar que a maioria das funções utilizadas no presente modelo dependem da instalação de pacotes, como é habitual em R. Para instalar e importar um determinado pacote no seu ambiente R, utilizam-se os seguintes comandos:
+
+```R
+install.packages("nomedopacote") #Aguardar a instalação e, então, executar:
+
+library(nomedopacote)
+```
+
+**2. Estimativas de poder estatístico e tamanho amostral**
 
 - Um dos elementos mais importantes do planejamento de experimentos é a estimativa de tamanho amostral. Uma leitura mais detalhada sobre o assunto pode ser encontrada no texto ["Poder do teste e tamanho do efeito"](https://biostatistics-uem.github.io/Bio/aula9/effectsize.html), de Felipe Barletta e Isolde Previdelli (@Biostatistics-UEM).
 
@@ -79,5 +87,31 @@ Balanced one-way analysis of variance power calculation
 NOTE: n is number in each group
 ```
 
+- O mesmo pacote, "pwr", pode ser utilizado para gerar um gráfico da estimativa "av", que permite visualizar a variação de poder estatístico em função do tamanho amostral:
 
+```R
+plot.power.htest(av)
+```
 
+![Rplot](https://user-images.githubusercontent.com/91353422/149058642-1f695017-31d4-414b-9634-d9e065337664.png)
+
+- Os parâmetros acima também podem ser obtidos para outros testes, como os testes *t* [(veja mais detalhes no artigo)](https://doi.org/10.1590/SciELOPreprints.3389). 
+
+**3. Estimativa de tamanho de efeito**
+
+- O pacote “pwr” oferece, ainda, a possibilidade de se estimar o tamanho de efeito sem a necessidade de calculadoras ou aplicativos externos. No presente modelo, pode-se observar um exemplo da análise de tamanho de efeito (Cohen D) entre os grupos “Controle” e “Tratamento_II” (ver tabela em "Importando dados de planilhas"), que resulta em um d = 5.96, com intervalo de confiança entre 4.15 e 7.78.
+
+```R
+cohen.d(df$Controle, df$Tratamento_II) #Onde "df" contém os dados e "$" indexa as colunas (ex.: "Controle")
+```
+
+```
+Cohen's d
+
+d estimate: 5.969867 (large)
+95 percent confidence interval:
+   lower    upper 
+4.155318 7.784415 
+```
+
+[EM CONSTRUÇÃO]
