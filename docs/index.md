@@ -35,6 +35,7 @@ Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for s
 
 ------------------------------------------------------------------------------------------------------------------------------
 
+
 **1. Importando dados de planilhas**
 
 - O caso mais habitual para pesquisas em Biociências é a importação de dados contidos em planilhas, normalmente salvas no formato '.xlsx'. Para esse tipo de documento, basta que o pesquisador execute o seguinte código:
