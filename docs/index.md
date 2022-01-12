@@ -35,7 +35,6 @@ Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for s
 
 ------------------------------------------------------------------------------------------------------------------------------
 
-:nerd_face:
 
 **1. Importando dados de planilhas**
 
