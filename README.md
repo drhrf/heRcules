@@ -7,11 +7,11 @@
 
 1. Repositório de scripts R para a análise de dados em Ciências Biológicas e da Saúde. Meu objetivo aqui é:
 
-    - Fornecer scripts R anotados para facilitar a transição de usuários de softwares pagos :moneybag:
+    - Fornecer scripts R anotados para facilitar a transição de usuários de softwares pagos;
 
-    - Desenvolver protocolos gerais passo a passo para a análise de dados científicos :microscope:
+    - Desenvolver protocolos gerais passo a passo para a análise de dados científicos;
 
-    - Fornecer arquivos de markdown estruturados para facilitar o relatório da análise de dados :notebook:
+    - Fornecer arquivos de markdown estruturados para facilitar o relatório da análise de dados;
 
 ### Aprendendo o básico da linguagem R:
 
@@ -25,17 +25,30 @@
 
 ### Componentes do modelo I:
 
-
-##
-
+------------------------------------------------------------------------------------------------------------------------------
 
 **ATENÇÃO!** Se for utilizar o modelo em uma publicação, cite:
 
 Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for scientific data analysis. SciELO Preprints. 2022. Version 1. doi: 10.1590/SciELOPreprints.3389
 
-:point_right: [Clique aqui para acessar](https://doi.org/10.1590/SciELOPreprints.3389)
+[Clique aqui para acessar](https://doi.org/10.1590/SciELOPreprints.3389)
 
-##
+------------------------------------------------------------------------------------------------------------------------------
 
-1. Cálculo de tamanho e poder amostral
+1. Importando dados de planilhas
+
+    - O caso mais habitual para pesquisas em Biociências é a importação de dados contidos em planilhas, normalmente salvas no formato '.xlsx'. Para esse tipo de documento, basta que o pesquisador execute o seguinte código:
+
+```R
+df <- readxl::read_excel(‘caminho/do/arquivo/no/computador/nomedoarquivo.xlsx’)
+```
+
+    - No caso acima, o comando importará para o ambiente R a primeira aba da planilha e atribuirá ao objeto “df” as informações contidas nela.
+
+
+
+
+
+
+
 
