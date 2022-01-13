@@ -5,6 +5,16 @@
 ------------------------------------------------------------------------------------------------------------------------------
 ## heRcules: um repositório de scripts R anotados em Português
 
+> O repositório te ajudou? Você pode nos ajudar:
+> 
+> 1. Compartilhando em redes sociais;
+> 
+>     <div> <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> <a href="https://www.instagram.com/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a> <a href="https://twitter.com/?lang=en" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> <a href="https://www.facebook.com/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" target="_blank"></a> <a href="https://web.whatsapp.com/" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a> <a href="https://web.telegram.org/" target="_blank"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a> </div>
+> <p><p/>
+> 
+> 2. Fazendo uma doação para um projeto social (sugerimos o projeto ["Brasil sem fome"](https://www.brasilsemfome.org.br/));
+> 3. Comprando um café :coffee: ou um chá :tea: para o Hércules (escaneie, copie o cógigo e faça o PIX): <img align="center" alt="fig2" height="160" width="120" src="https://user-images.githubusercontent.com/91353422/149412962-eca4b520-4671-4e2b-b009-d01c740263d9.jpeg"/>
+
 **1. Repositório de scripts R para a análise de dados em Ciências Biológicas e da Saúde. Meu objetivo aqui é:**
 
 - Fornecer scripts R anotados para facilitar a transição de usuários de softwares pagos;
