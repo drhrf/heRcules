@@ -17,7 +17,7 @@
 >       
 >     <a href="https://www.brasilsemfome.org.br/" target="_blank"><img src="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_100/3737110/622911_969507.png" target="_blank"></a>
 > 
-> 3. Comprando um café :coffee: ou um chá :tea: para o Hércules (cógigo PIX no QR code)             
+> 3. Comprando um café :coffee: ou um chá :tea: para o Hércules (código PIX no QR code)             
 > 
 >     <a href="https://user-images.githubusercontent.com/91353422/149412962-eca4b520-4671-4e2b-b009-d01c740263d9.jpeg" target="_blank"><img alt="fig3" height="160" width="120" src="https://user-images.githubusercontent.com/91353422/149412962-eca4b520-4671-4e2b-b009-d01c740263d9.jpeg"/></a>
 >     
