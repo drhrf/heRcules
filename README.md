@@ -29,6 +29,8 @@
 
 Freitas, H.R. heRcules: A repository for annotated R scripts in Portuguese for scientific data analysis. SciELO Preprints. 2022. Version 1. doi: 10.1590/SciELOPreprints.3389
 
-[Clique aqui para acessar](https://doi.org/10.1590/SciELOPreprints.3389)
+[Clique aqui para acessar o artigo](https://doi.org/10.1590/SciELOPreprints.3389)
+
+[Clique aqui para acessar o guia do modelo I](https://drhrf.github.io/heRcules/)
 
 ------------------------------------------------------------------------------------------------------------------------------
