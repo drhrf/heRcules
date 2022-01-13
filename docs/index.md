@@ -18,7 +18,7 @@
 > 
 > 3. Comprando um café :coffee: ou um chá :tea: para o Hércules (cógigo PIX no QR code)             
 > 
->     <img align="center" alt="fig3" height="160" width="120" src="https://user-images.githubusercontent.com/91353422/149412962-eca4b520-4671-4e2b-b009-d01c740263d9.jpeg"/>
+>     <a href="https://user-images.githubusercontent.com/91353422/149412962-eca4b520-4671-4e2b-b009-d01c740263d9.jpeg" target="_blank"><img alt="fig3" height="160" width="120" src="https://user-images.githubusercontent.com/91353422/149412962-eca4b520-4671-4e2b-b009-d01c740263d9.jpeg"/></a>
 >     
 
 **1. Repositório de scripts R para a análise de dados em Ciências Biológicas e da Saúde. Meu objetivo aqui é:**
