@@ -298,9 +298,31 @@ write.xlsx(x = tabela,                                    #x = nome do objeto ("
 
 **5. Gráficos**
 
-```R
+- Por conterem diversos componentes individuais personalizáveis, gráficos prontos para publicação geralmente demandam certo tempo e esforço do pesquisador. Esse esforço, porém, só precisa ser feito uma vez, já que o mesmo código, com pequenas modificações, pode ser aplicado para um novo conjunto de dados com estrutura similar.
 
+- Gráficos básicos, por outro lado, são gerados com facilidade. Veja o exemplo da função "boxplot()", nativa do R:
+
+```R
+boxplot(df)
 ```
+
+![Rplot](https://user-images.githubusercontent.com/91353422/149254457-a9d7cbcf-99de-4fe7-9143-7af9fb2853f1.png)
+
+- Com poucas adaptações, é possível selecionar os dados a serem apresentados, a cor de preenchimento e o nome dos grupos:
+
+```R
+boxplot(df$Controle,                  #Grupo Controle
+        df$Tratamento_I,              #Grupo Tratamento_I
+        df$Tratamento_II,             #Grupo Tratamento_II
+        col = "lightblue",            #Preenchimento azul claro
+        names = c("Grupo 1",          #Nome do grupo 1
+                  "Grupo 2",          #Nome do grupo 2
+                  "Grupo 3"))         #Nome do grupo 3
+```
+
+![Rplot111](https://user-images.githubusercontent.com/91353422/149255230-36900bdc-2de4-4b66-ba19-75228f5af049.png)
+
+- 
 
 [EM CONSTRUÇÃO]
 
