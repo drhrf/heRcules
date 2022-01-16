@@ -349,7 +349,7 @@ par(mfrow = c(2, 2))
 - É sempre importante reestabelecer o padrão "par(mfrow = c(1, 1))" logo após gerar o gráfico desejado, isso evita problemas na execução dos códigos para gráficos seguintes. Veja, agora, um exemplo de implementação onde quatro histogramas, um para cada grupo do modelo I, são gerados em sobreposição:
 
 ```R
-par(mfrow = c(2, 2))
+par(mfrow = c(4, 1))
 ```
 
 ```R
