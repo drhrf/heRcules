@@ -637,3 +637,11 @@ mean of x  mean of y
 **Conclusão**
 
 - O crescimento no número de usuários que procura linguagens como R e Python para a análise de dados científicos, em detrimento de ferramentas mais limitadas e/ou pagas, é um sinal de progresso a favor da reprodutibilidade na ciência. O objetivo do presente repositório é marcar o início de um esforço direcionado a fornecer recursos estruturados, e em língua portuguesa, a pesquisadores em processo de transição para a linguagem R.
+
+**Terminou sua leitura e gostaria de um certificado? Siga o passo-a-passo:**
+
+- [Clique aqui](https://forms.gle/CMwB1eiyka6mA9ei7) e faça a avaliação de aprendizado (nota mínima = 6/10);
+
+- Se for aprovado(a), você receberá um certificado por e-mail!
+
+- IMPORTANTE: a emissão do certificado depende da autorização pelo autor do repositório. Se não receber um e-mail dentro de duas semanas, entre em contato pelo [Linkedin](https://www.linkedin.com/in/proffreitashr/).
