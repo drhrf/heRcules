@@ -1,34 +1,4 @@
-getwd()
-library(pryr)
-library(psych)
-library(dplyr, warn.conflicts = FALSE)
-library("RColorBrewer")
-library(gplots)
-library(pastecs)
-library(fBasics)
-library(skimr)
-library(ExPanDaR)
-library(corrplot)
-library(vioplot)
-library(ggplot2)
-library(GGally)
-#library(xlsx)
-library(reshape2)
-library(rstatix)
-library(kableExtra)
-library(pwr)
-library(effsize)
-library(effectsize)
-library(ggbreak)
-library(MKinfer)
-library(boot)
-library(ggside)
-library(tidyverse)
-library(bayestestR)
-library(plotly)
-
-
-#Imprime textos e funções matemáticas em plots vazios
+#Imprime textos e funÃ§Ãµes matemÃ¡ticas em plots vazios
 
 plotex <- function(x, n){
   print(attributes(plotex))
@@ -38,20 +8,20 @@ plotex <- function(x, n){
        cex = n)
 }
 
-attr(plotex, "comment") <- "A função 'plotex' gera a visualização de um texto ou expressão diretamente na janela 'Plots' do R. Os dois argumentos utilizados aqui são 'x', que é a expressão impressa na janela, e 'n' que é o tamanho do texto utilizado."
+attr(plotex, "comment") <- "A funÃ§Ã£o 'plotex' gera a visualizaÃ§Ã£o de um texto ou expressÃ£o diretamente na janela 'Plots' do R. Os dois argumentos utilizados aqui sÃ£o 'x', que Ã© a expressÃ£o impressa na janela, e 'n' que Ã© o tamanho do texto utilizado."
 
 
-#Ponto de corte do cálcio
+#Ponto de corte do cÃ¡lcio
 
 pcut <- function(x){
   print(attributes(pcut))
   require(fBasics)
   y <- mean(x)+5*stdev(x)
-  print("Seu ponto de corte (média + 5x o desvio padrão) é: ")
+  print("Seu ponto de corte (mÃ©dia + 5x o desvio padrÃ£o) Ã©: ")
   return(y)
 }
 
-attr(pcut, "comment") <- "Retorna o ponto de corte para o ensaio de cálcio."
+attr(pcut, "comment") <- "Retorna o ponto de corte para o ensaio de cÃ¡lcio."
 
 #Salva base plots
 
@@ -66,9 +36,9 @@ bsave <- function(pryr, path, w, h, r){
   dev.off()
 }
 
-attr(bsave, "comment") <- "Salva gráficos armazenados como código em pryr. Para salvar o gráfico, atribua o código gerador a um pryr da seguinte maneira 'p1.pryr %<a-% {'código aqui'}'"
+attr(bsave, "comment") <- "Salva grÃ¡ficos armazenados como cÃ³digo em pryr. Para salvar o grÃ¡fico, atribua o cÃ³digo gerador a um pryr da seguinte maneira 'p1.pryr %<a-% {'cÃ³digo aqui'}'"
 
-#Cria distribuição normal com possibilidade de colorir parte da dist
+#Cria distribuiÃ§Ã£o normal com possibilidade de colorir parte da dist
 
 normal_area <- function(mean = 0, sd = 1, lb, ub, acolor = "lightgray", ...) {
   x <- seq(mean - 3 * sd, mean + 3 * sd, length = 100) 
@@ -88,9 +58,9 @@ normal_area <- function(mean = 0, sd = 1, lb, ub, acolor = "lightgray", ...) {
   lines(x, dnorm(x, mean, sd), type = "l", ...)
 }
 
-attr(normal_area, "comment") <- "Cria distribuição normal com possibilidade de colorir parte da distribuição. É necessário usar a função 'text()' para inserir alguma legenda ao gráfico"
+attr(normal_area, "comment") <- "Cria distribuiÃ§Ã£o normal com possibilidade de colorir parte da distribuiÃ§Ã£o. Ã‰ necessÃ¡rio usar a funÃ§Ã£o 'text()' para inserir alguma legenda ao grÃ¡fico"
 
-#Analisa planilhas de cálcio com apenas um comando
+#Analisa planilhas de cÃ¡lcio com apenas um comando
 
 cadata <- function(filepath){
   require(reshape2)
@@ -177,7 +147,7 @@ cadata <- function(filepath){
   results
 }
 
-attr(cadata, "comment") <- "Analisa ensaios de cálcio. Basta inserir o caminho do arquivo na função e então informar o intervalo de tempo a ser analisado."
+attr(cadata, "comment") <- "Analisa ensaios de cÃ¡lcio. Basta inserir o caminho do arquivo na funÃ§Ã£o e entÃ£o informar o intervalo de tempo a ser analisado."
 
 catoplus <- function(filepath, fullrun = NULL){
   require(reshape2)
@@ -320,9 +290,9 @@ catoplus <- function(filepath, fullrun = NULL){
   results}
 }
 
-attr(catoplus, "comment") <- "Analisa ensaios de cálcio. Basta inserir o caminho do arquivo na função e então informar o intervalo de tempo a ser analisado. Se TRUE for fornecido para fullrun, o programa analisará toda a corrida."
+attr(catoplus, "comment") <- "Analisa ensaios de cÃ¡lcio. Basta inserir o caminho do arquivo na funÃ§Ã£o e entÃ£o informar o intervalo de tempo a ser analisado. Se TRUE for fornecido para fullrun, o programa analisarÃ¡ toda a corrida."
 
-#Gera ggplots simples de maneira �gil
+#Gera ggplots simples de maneira ágil
 
 df <- readxl::read_excel("C:\\Users\\hercu\\Downloads\\TABELA_DE_DADOS.xlsx")
 
