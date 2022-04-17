@@ -350,15 +350,7 @@ ggbar <- function(data, y, x, fill="white", title="", ylab="", xlab="", texsize=
                       width = 0.2)}
 }
 
-ggbar(data = df, 
-      y = "IDADE", 
-      x = "GRUPO", 
-      fill = "lightblue", 
-      title = "Ggawesome!", 
-      ylab = "Idade", 
-      xlab = "Grupo",
-      texsize = 13,
-      errorbar = T)
+attr(ggbox, "comment") <- "Gera um grafico de barras simples com o ggplot2"
 
 ggbox <- function(data, y, x, fill="white", title="", ylab="", xlab="", texsize=10){
   df <- data
@@ -386,14 +378,5 @@ ggbox <- function(data, y, x, fill="white", title="", ylab="", xlab="", texsize=
          y = ylab, 
          x = xlab)
 }
-
-ggbox(data = df, 
-      y = "IDADE", 
-      x = "GRUPO", 
-      fill = "lightblue", 
-      title = "Ggawesome!", 
-      ylab = "Idade", 
-      xlab = "Grupo",
-      texsize = 13)
 
 attr(ggbox, "comment") <- "Gera um boxplot simples com o ggplot2"
