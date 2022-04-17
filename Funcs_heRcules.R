@@ -296,8 +296,6 @@ attr(catoplus, "comment") <- "Analisa ensaios de cÃ¡lcio. Basta inserir o cami
 
 #Gera ggplots simples de maneira ágil
 
-df <- readxl::read_excel("C:\\Users\\hercu\\Downloads\\TABELA_DE_DADOS.xlsx")
-
 ggbar <- function(data, y, x, fill="white", title="", ylab="", xlab="", texsize=10, errorbar=NULL){
   df <- data
   x <- df[,x]
