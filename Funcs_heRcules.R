@@ -1,3 +1,5 @@
+library(tidyverse)
+
 #Imprime textos e funÃ§Ãµes matemÃ¡ticas em plots vazios
 
 plotex <- function(x, n){
