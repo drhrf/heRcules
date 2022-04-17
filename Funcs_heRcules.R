@@ -350,7 +350,7 @@ ggbar <- function(data, y, x, fill="white", title="", ylab="", xlab="", texsize=
                       width = 0.2)}
 }
 
-attr(ggbox, "comment") <- "Gera um grafico de barras simples com o ggplot2"
+attr(ggbar, "comment") <- "Gera um grafico de barras simples com o ggplot2"
 
 ggbox <- function(data, y, x, fill="white", title="", ylab="", xlab="", texsize=10){
   df <- data
